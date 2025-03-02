@@ -95,7 +95,7 @@ list-inline {
 }
 
 .navbar-brand {
-  background-image: url("https://raw.githubusercontent.com/TirkarParth/Intro-Frontend-Portfolio-Website/main/img/PTlogo1.png?raw=true");
+  background-image: url("../img/PTlogo1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
