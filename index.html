@@ -66,6 +66,10 @@
           <a class="navbar-brand" href=""></a>
 
           <ul class="list-inline mt-1 mb-0">
+            <!-- Language Switcher -->
+            <li class="list-inline-item">
+              <button id="lang-toggle" class="btn btn-sm btn-outline-dark">EN</button>
+            </li>
             <li class="list-inline-item mr-4">
               <a
                 class="link-social"
@@ -88,6 +92,7 @@
                 <span class="icon-social-linkedin"></span>
               </a>
             </li>
+            
           </ul>
           <button
             class="navbar-toggler"
@@ -106,42 +111,36 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="#home-section"
+                  data-lang="home" href="#home-section"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about-section">About</a>
+                <a class="nav-link" data-lang="about" href="#about-section">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Projects-section">Projects</a>
+                <a class="nav-link" data-lang="projects" href="#Projects-section">Projects</a>
               </li>
-              <!-- <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="./casestudy.html"
-                  target="_blank"
-                  rel="noopener"
-                  >Case</a
-                >
-              </li> -->
+              
               <li class="nav-item">
-                <a class="nav-link" href="#contact-section">Contact</a>
+                <a class="nav-link" data-lang="contact" href="#contact-section">Contact</a>
               </li>
 
               <li class="nav-item">
                 <a
                   class="btn btn-dark btn-sm"
+                  data-lang="download"
                   href="src/downloads/PtDev.pdf"
                   target="_blank"
                   rel="noopener"
                   >Download Resume</a
                 >
               </li>
-            </ul>
+            </ul>   
           </div>
         </div>
       </nav>
+      
 
       <!-- Hero Section  -->
       <section class="mb-5" id="home-section">
@@ -161,12 +160,12 @@
                   />
                 </div>
               </div>
-              <h1 class="py-3">
+              <h1 class="py-3" data-lang="heroTitle">
                 I am Parth,
                 <br />
                 Your Fullstack Developer
               </h1>
-              <p class="py-3">
+              <p class="py-3" data-lang="heroDesc">
                 I am a newly certified full-stack developer from Leipzig, Germany, holding a master's degree in Information Communication Systems. My passion for coding is driven by a fascination with creating solutions that are both technically robust and user-friendly, enhancing overall user satisfaction.
               </p>
               <a
@@ -174,9 +173,10 @@
                 target="_blank"
                 rel="noopener"
                 class="butn butn__new"
+                data-lang="heroResume"
                 >Download Resume</a
               >
-              <a href="#contact-form" class="butn2 butn2__new">Contact Me</a>
+              <a href="#contact-form" data-lang="ContactMe" class="butn2 butn2__new">Contact Me</a>
               <div class="mt-3 social-icons">
                 <ul class="my-tech-stack">
                   <li><i class="devicon-mongodb-plain-wordmark"></i></li>
@@ -209,57 +209,60 @@
       </section>
 
       <!-- New about me Section -->
-      <section class="container col-md-10 py-5" id="about-section">
-        <div class="about-section" data-aos="fade-up" data-aos-duration="3000">
-          <div class="row mb-4">
-            <div class="col-md-8">
+        <section class="container col-md-10 py-5" id="about-section">
+          <div class="about-section" data-aos="fade-up" data-aos-duration="3000">
+            <div class="row mb-4">
+              <div class="col-md-8">
+                <div
+                  class="col-md-4 d-flex justify-content-center align-items-center d-md-none mb-3"
+                >
+                  <i class="feature-icon2 bi bi-info-circle"></i>
+                </div>
+                <h2 class="display-5 mb-4" data-lang="aboutTitle">About Me</h2>
+                <p class="lead text-muted mb-5" data-lang="aboutDesc">
+                  My passion for technology, combined with my experience in the tech industry and my master's studies, has enabled me to quickly acquire new skills. Below, I share how my journey has evolved, along with some of the activities I enjoy when I'm not working.
+                </p>
+              </div>
               <div
-                class="col-md-4 d-flex justify-content-center align-items-center d-md-none mb-3"
+                class="col-md-4 d-flex justify-content-center align-items-center d-none d-md-flex"
               >
                 <i class="feature-icon2 bi bi-info-circle"></i>
               </div>
-              <h2 class="display-5 mb-4">About Me</h2>
-              <p class="lead text-muted mb-5">
-                My passion for technology, combined with my experience in the tech industry and my master's studies, has enabled me to quickly acquire new skills. Below, I share how my journey has evolved, along with some of the activities I enjoy when I'm not working.
-              </p>
             </div>
-            <div
-              class="col-md-4 d-flex justify-content-center align-items-center d-none d-md-flex"
-            >
-              <i class="feature-icon2 bi bi-info-circle"></i>
-            </div>
-          </div>
-          <div
-            class="skills-section"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <div class="row">
-              <div class="col-md-6 col-lg-4 feature-item mb-4">
-                <i class="feature-icon bi bi-person-arms-up"></i>
-                <h5 class="fw-bold mt-2 mb-2">Background</h5>
-                <p class="fw-light">
-                  I've taken on diverse roles, seamlessly blending technical expertise with experience as an OB Engineer and a RADAR development student. My foundation in tech support and hardware simulation, along with a deep-rooted passion for technology, enables me to swiftly grasp and implement new skills 🎯.
-                </p>
-              </div>
-              <div class="col-md-6 col-lg-4 feature-item mb-4">
-                <i class="feature-icon bi bi-person-walking"></i>
-                <h5 class="fw-bold mt-2 mb-2">Transition</h5>
-                <p class="fw-light">
-                  My time at Aptiv ⚡️ sparked my shift into development, where I discovered how to merge technical expertise with a user-focused approach. This role, combined with my customer-oriented background, highlighted the power of blending technology with user needs.
-                </p>
-              </div>
-              <div class="col-md-6 col-lg-4 feature-item mb-4">
-                <i class="feature-icon bi bi-chat-heart"></i>
-                <h5 class="fw-bold mt-2 mb-2">Downtime</h5>
-                <p class="fw-light">
-                  When I'm not coding, I love immersing myself in music, taking long drives, and tackling challenging puzzles with over 2,000 pieces. Each of these activities offers a unique way to unwind and stimulate my mind.
-                </p>
+            <div class="skills-section" data-aos="fade-up" data-aos-duration="3000">
+              <div class="row">
+                <div class="col-md-6 col-lg-4 feature-item mb-4">
+                  <i class="feature-icon bi bi-person-arms-up"></i>
+                  <h5 class="fw-bold mt-2 mb-2" data-lang="backgroundTitle">
+                    Background
+                  </h5>
+                  <p class="fw-light" data-lang="backgroundDesc">
+                    I've taken on diverse roles, seamlessly blending technical expertise with experience as an OB Engineer and a RADAR development student. My foundation in tech support and hardware simulation, along with a deep-rooted passion for technology, enables me to swiftly grasp and implement new skills 🎯.
+                  </p>
+                </div>
+                <div class="col-md-6 col-lg-4 feature-item mb-4">
+                  <i class="feature-icon bi bi-person-walking"></i>
+                  <h5 class="fw-bold mt-2 mb-2" data-lang="transitionTitle">
+                    Transition
+                  </h5>
+                  <p class="fw-light" data-lang="transitionDesc">
+                    My time at Aptiv ⚡️ sparked my shift into development, where I discovered how to merge technical expertise with a user-focused approach. This role, combined with my customer-oriented background, highlighted the power of blending technology with user needs.
+                  </p>
+                </div>
+                <div class="col-md-6 col-lg-4 feature-item mb-4">
+                  <i class="feature-icon bi bi-chat-heart"></i>
+                  <h5 class="fw-bold mt-2 mb-2" data-lang="downtimeTitle">
+                    Downtime
+                  </h5>
+                  <p class="fw-light" data-lang="downtimeDesc">
+                    When I'm not coding, I love immersing myself in music, taking long drives, and tackling challenging puzzles with over 2,000 pieces. Each of these activities offers a unique way to unwind and stimulate my mind.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+
 
       <hr class="divider" />
 
@@ -503,83 +506,92 @@
       </section>
 
       <!-- Skills Section -->
-      <section class="container col-md-10 py-5">
-        <div class="skills-section" data-aos="fade-up" data-aos-duration="3000">
-          <div class="row mb-4">
-            <div class="col-md-8">
+        <section class="container col-md-10 py-5">
+          <div class="skills-section" data-aos="fade-up" data-aos-duration="3000">
+            <div class="row mb-4">
+              <div class="col-md-8">
+                <div
+                  class="col-md-4 d-flex justify-content-center align-items-center d-md-none mt-3 mb-3"
+                >
+                  <i class="feature-icon2 bi bi-palette2"></i>
+                </div>
+                <h2 class="display-5 mb-4 mt-4" data-lang="skillsTitle">Skills</h2>
+                <p class="lead text text-muted mb-5" data-lang="skillsDesc">
+                  I am a dynamic web developer proficient in both frontend and backend
+                  development, dedicated to crafting responsive and intuitive web
+                  applications. With expertise in a wide range of technologies and
+                  frameworks, I deliver secure, high-performing, and reliable solutions.
+                </p>
+              </div>
               <div
-                class="col-md-4 d-flex justify-content-center align-items-center d-md-none mt-3 mb-3"
+                class="col-md-4 d-flex justify-content-center align-items-center d-none d-md-flex"
               >
                 <i class="feature-icon2 bi bi-palette2"></i>
               </div>
-              <h2 class="display-5 mb-4 mt-4">Skills</h2>
-              <p class="lead text text-muted mb-5">
-                I am a dynamic web developer proficient in both frontend and backend development, dedicated to crafting responsive and intuitive web applications. With expertise in a wide range of technologies and frameworks, I deliver secure, high-performing, and reliable solutions.
-              </p>
             </div>
-            <div
-              class="col-md-4 d-flex justify-content-center align-items-center d-none d-md-flex"
-            >
-              <i class="feature-icon2 bi bi-palette2"></i>
-            </div>
-          </div>
-          <div class="row">
-            <!-- Frontend Skills -->
-            <div class="col-md-6 col-lg-4 feature-item mb-4">
-              <i class="feature-icon bi bi-code-slash"></i>
-              <h5 class="fw-bold mt-2 mb-2">Frontend Development</h5>
-              <p class="fw-light">
-                Specializing in creating responsive, user-friendly web
-                applications using HTML, CSS, JavaScript, and TypeScript.
-                Proficient in frameworks like React, Angular, and React Native.
-              </p>
-              <h6 class="fw-bold mt-2">Core Technologies:</h6>
-              <ul>
-                <li>HTML, CSS, JavaScript, TypeScript</li>
-                <li>React, Angular, jQuery, Bootstrap</li>
-                <li>Test-driven development (TDD)</li>
-                <li>
-                  Behavior-driven development (BDD) with Cucumber and Gherkin
-                </li>
-              </ul>
-            </div>
-            <!-- Backend Skills -->
-            <div class="col-md-6 col-lg-4 feature-item mb-4">
-              <i class="feature-icon bi bi-server"></i>
-              <h5 class="fw-bold mt-2 mb-2">Backend Development</h5>
-              <p class="fw-light">
-                Proficient in server-side development with Node.js and Express,
-                focusing on building robust APIs and managing databases using
-                MongoDB and PostgreSQL.
-              </p>
-              <h6 class="fw-bold mt-2">Core Technologies:</h6>
-              <ul>
-                <li>Node.js, Express, RESTful APIs</li>
-                <li>MongoDB, PostgreSQL</li>
-                <li>JWT for authentication and authorization</li>
-                <li>Cloud storage: AWS, Firebase, Netlify, Herku</li>
-              </ul>
-            </div>
-            <!-- Additional Skills -->
-            <div class="col-md-6 col-lg-4 feature-item mb-4">
-              <i class="feature-icon bi bi-tools"></i>
-              <h5 class="fw-bold mt-2 mb-2">Additional Skills</h5>
-              <p class="fw-light">
-                Experience with cloud storage solutions, local data storage, and
-                advanced testing methodologies to ensure high-quality, secure
-                applications.
-              </p>
-              <h6 class="fw-bold mt-2">Technologies &amp; Tools:</h6>
-              <ul>
-                <li>Testing: Jest, Cucumber, Puppeteer</li>
-                <li>Data storage: AWS, Google Firestore</li>
-                <li>Libraries: Axios, PropTypes, Parcel</li>
-                <li>Mobile development: React Native, Expo</li>
-              </ul>
+            <div class="row">
+              <!-- Frontend Skills -->
+              <div class="col-md-6 col-lg-4 feature-item mb-4">
+                <i class="feature-icon bi bi-code-slash"></i>
+                <h5 class="fw-bold mt-2 mb-2" data-lang="frontendTitle">
+                  Frontend Development
+                </h5>
+                <p class="fw-light" data-lang="frontendDesc">
+                  Specializing in creating responsive, user-friendly web applications
+                  using HTML, CSS, JavaScript, and TypeScript. Proficient in frameworks
+                  like React, Angular, and React Native.
+                </p>
+                <h6 class="fw-bold mt-2" data-lang="frontendCore">Core Technologies:</h6>
+                <ul>
+                  <li>HTML, CSS, JavaScript, TypeScript</li>
+                  <li>React, Angular, jQuery, Bootstrap</li>
+                  <li>Test-driven development (TDD)</li>
+                  <li>Behavior-driven development (BDD) with Cucumber and Gherkin</li>
+                </ul>
+              </div>
+              <!-- Backend Skills -->
+              <div class="col-md-6 col-lg-4 feature-item mb-4">
+                <i class="feature-icon bi bi-server"></i>
+                <h5 class="fw-bold mt-2 mb-2" data-lang="backendTitle">
+                  Backend Development
+                </h5>
+                <p class="fw-light" data-lang="backendDesc">
+                  Proficient in server-side development with Node.js and Express,
+                  focusing on building robust APIs and managing databases using MongoDB
+                  and PostgreSQL.
+                </p>
+                <h6 class="fw-bold mt-2" data-lang="backendCore">Core Technologies:</h6>
+                <ul>
+                  <li>Node.js, Express, RESTful APIs</li>
+                  <li>MongoDB, PostgreSQL</li>
+                  <li>JWT for authentication and authorization</li>
+                  <li>Cloud storage: AWS, Firebase, Netlify, Heroku</li>
+                </ul>
+              </div>
+              <!-- Additional Skills -->
+              <div class="col-md-6 col-lg-4 feature-item mb-4">
+                <i class="feature-icon bi bi-tools"></i>
+                <h5 class="fw-bold mt-2 mb-2" data-lang="additionalTitle">
+                  Additional Skills
+                </h5>
+                <p class="fw-light" data-lang="additionalDesc">
+                  Experience with cloud storage solutions, local data storage, and
+                  advanced testing methodologies to ensure high-quality, secure
+                  applications.
+                </p>
+                <h6 class="fw-bold mt-2" data-lang="additionalCore">
+                  Technologies & Tools:
+                </h6>
+                <ul>
+                  <li>Testing: Jest, Cucumber, Puppeteer</li>
+                  <li>Data storage: AWS, Google Firestore</li>
+                  <li>Libraries: Axios, PropTypes, Parcel</li>
+                  <li>Mobile development: React Native, Expo</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
       <!-- New Image Section -->
       <section class="col-lg-12">
@@ -614,8 +626,8 @@
                 >
                   <i class="feature-icon2 bi bi-folder"></i>
                 </div>
-                <h2 class="display-5 mb-4">Projects</h2>
-                <p class="lead text text-muted mb-5">
+                <h2 class="display-5 mb-4" data-lang="projectsTitle">Projects</h2>
+                <p class="lead text text-muted mb-5" data-lang="projectsDesc">
                   The
                   <a
                     href="https://careerfoundry.com/"
@@ -668,8 +680,8 @@
                       title="Scroll to the left to see more projects"
                     />
                     <div class="card-body">
-                      <h5 class="fw-bold mt-2 mb-2">Pokemon Js App</h5>
-                      <p class="fw-light card-text mb-3">
+                      <h5 class="fw-bold mt-2 mb-2" data-lang="pokemonTitle">Pokemon Js App</h5>
+                      <p class="fw-light card-text mb-3" data-lang="pokemonDesc">
                         A JavaScript-based web app focused on Pokémon, utilizing
                         HTML, CSS, and JavaScript to fetch and present detailed
                         data from an external API.
@@ -699,19 +711,19 @@
                       </div>
                       <div class="row">
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonFeatures">
                             Features
                           </h6>
                           <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Responsive Design</li>
-                            <li class="list-group-item">Fetch from API</li>
-                            <li class="list-group-item">Browse Pokemons</li>
+                            <li class="list-group-item" data-lang="feature1">Responsive Design</li>
+                            <li class="list-group-item" data-lang="feature2">Fetch from API</li>
+                            <li class="list-group-item" data-lang="feature3">Browse Pokemons</li>
                           </ul>
                           <br />
                         </div>
 
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonTech">
                             Technologies
                           </h6>
 
@@ -737,7 +749,7 @@
                     />
                     <div class="card-body">
                       <h5 class="card-title">Myflix- Client (React)</h5>
-                      <p class="card-text mb-3 fw-light">
+                      <p class="card-text mb-3 fw-light" data-lang="myFlixDesc">
                         A myFlix React App is a client-side, React-built
                         platform offering detailed movie information. Users can
                         create profiles, save favorites, and explore movies,
@@ -777,22 +789,28 @@
                       </div>
                       <div class="row">
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonFeatures">
                             Features
                           </h6>
                           <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
+                            <li class="list-group-item" data-lang="accessMovieInfo">
                               Access Movie Information
                             </li>
-                            <li class="list-group-item">User Authentication</li>
-                            <li class="list-group-item">Manage Favorites</li>
-                            <li class="list-group-item">Manage Profile Data</li>
-                          </ul>
+                            <li class="list-group-item" data-lang="userAuth">
+                              User Authentication
+                            </li>
+                            <li class="list-group-item" data-lang="manageFavorites">
+                              Manage Favorites
+                            </li>
+                            <li class="list-group-item" data-lang="manageProfile">
+                              Manage Profile Data
+                            </li>
+                          </ul>                          
                           <br />
                         </div>
 
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonTech">
                             Technologies
                           </h6>
 
@@ -819,7 +837,7 @@
                     />
                     <div class="card-body">
                       <h5 class="card-title">Chat App (React-native)</h5>
-                      <p class="card-text mb-3">
+                      <p class="card-text mb-3" data-lang="reactNativeApp">
                         React Native App - A real-time chat app allowing users
                         to exchange messages, share photos, videos, and their
                         location instantly.
@@ -850,27 +868,31 @@
                       </div>
                       <div class="row">
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonFeatures">
                             Features
                           </h6>
                           <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
+                            <li class="list-group-item" data-lang="sharePicsVideos">
                               Share Pics and Videos
                             </li>
-                            <li class="list-group-item">
-                              Photo Libary Integration
+                            <li class="list-group-item" data-lang="photoLibrary">
+                              Photo Library Integration
                             </li>
-                            <li class="list-group-item">Share location</li>
-                            <li class="list-group-item">Real-time Chat</li>
-                            <li class="list-group-item">
+                            <li class="list-group-item" data-lang="shareLocation">
+                              Share Location
+                            </li>
+                            <li class="list-group-item" data-lang="realTimeChat">
+                              Real-time Chat
+                            </li>
+                            <li class="list-group-item" data-lang="offlineAccess">
                               Offline Message Access
                             </li>
-                          </ul>
+                          </ul>                          
                           <br />
                         </div>
 
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonTech">
                             Technologies
                           </h6>
 
@@ -897,7 +919,7 @@
                     />
                     <div class="card-body">
                       <h5 class="card-title">Myflix-client (Angular)</h5>
-                      <p class="card-text mb-3">
+                      <p class="card-text mb-3" data-lang="angularApp">
                         This Angular app connects to a custom server-side REST
                         API and database, offering access to a movie details.
                       </p>
@@ -925,22 +947,20 @@
                       </div>
                       <div class="row">
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonFeatures">
                             Features
                           </h6>
                           <ul class="list-group list-group-flush">
-                            <li class="list-group-item">User Registration</li>
-                            <li class="list-group-item">View Movie Details</li>
-                            <li class="list-group-item">
-                              Save Movie Favorites
-                            </li>
-                            <li class="list-group-item">Edit User Profile</li>
-                          </ul>
+                            <li class="list-group-item" data-lang="userRegistration">User Registration</li>
+                            <li class="list-group-item" data-lang="viewMovieDetails">View Movie Details</li>
+                            <li class="list-group-item" data-lang="saveMovieFavorites">Save Movie Favorites</li>
+                            <li class="list-group-item" data-lang="editUserProfile">Edit User Profile</li>
+                          </ul>                          
                           <br />
                         </div>
 
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonTech">
                             Technologies
                           </h6>
 
@@ -969,7 +989,7 @@
                       <h5 class="card-title">
                         Meet N Code (Serveless PWA and TDD testing)
                       </h5>
-                      <p class="card-text mb-3">
+                      <p class="card-text mb-3" data-lang="serverlessApp">
                         Created a serverless React PWA applying TDD practices,
                         integrated with Google Calendar API for event retrieval.
                       </p>
@@ -997,27 +1017,21 @@
                       </div>
                       <div class="row">
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonFeatures">
                             Features
                           </h6>
                           <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Event Filtering</li>
-                            <li class="list-group-item">
-                              Detailed Event Views
-                            </li>
-                            <li class="list-group-item">
-                              Offline Functionality
-                            </li>
-                            <li class="list-group-item">
-                              Home Screen Shortcut
-                            </li>
-                            <li class="list-group-item">Data Visualization</li>
-                          </ul>
+                            <li class="list-group-item" data-lang="eventFiltering">Event Filtering</li>
+                            <li class="list-group-item" data-lang="detailedEventViews">Detailed Event Views</li>
+                            <li class="list-group-item" data-lang="offlineFunctionality">Offline Functionality</li>
+                            <li class="list-group-item" data-lang="homeScreenShortcut">Home Screen Shortcut</li>
+                            <li class="list-group-item" data-lang="dataVisualization">Data Visualization</li>
+                          </ul>                          
                           <br />
                         </div>
 
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonTech">
                             Technologies
                           </h6>
                           <ul class="list-group list-group-flush">
@@ -1041,7 +1055,7 @@
                     <img src="https://raw.githubusercontent.com/TirkarParth/Intro-Frontend-Portfolio-Website/main/img/myFlix.png?raw=true" alt="" class="card-img-top" />
                     <div class="card-body">
                       <h5 class="card-title">MyFlix Server (API)</h5>
-                      <p class="card-text mb-3">
+                      <p class="card-text mb-3" data-lang="myFlixServer">
                         A server-side component for myFlix, built with Node.js,
                         Express, and MongoDB, offering a robust RESTful API for
                         efficient movie data management.
@@ -1070,22 +1084,20 @@
                       </div>
                       <div class="row">
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonFeatures">
                             Features
                           </h6>
                           <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Fetch All Movies</li>
-                            <li class="list-group-item">Detailed Movie Info</li>
-                            <li class="list-group-item">
-                              User Profile Management
-                            </li>
-                            <li class="list-group-item">Account Deletion</li>
-                          </ul>
+                            <li class="list-group-item" data-lang="fetchMovies">Fetch All Movies</li>
+                            <li class="list-group-item" data-lang="movieInfo">Detailed Movie Info</li>
+                            <li class="list-group-item" data-lang="userProfile">User Profile Management</li>
+                            <li class="list-group-item" data-lang="accountDeletion">Account Deletion</li>
+                          </ul>                          
                           <br />
                         </div>
 
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonTech">
                             Technologies
                           </h6>
                           <ul class="list-group list-group-flush">
@@ -1112,7 +1124,7 @@
                     <img src="./img/To-Do-List.png" alt="" class="card-img-top" />
                     <div class="card-body">
                       <h5 class="card-title">TaskMaster (To-Do App)</h5>
-                      <p class="card-text mb-3">
+                      <p class="card-text mb-3" data-lang="taskAppDescription">
                         A full-stack task management web app built with React, Node.js, and MongoDB, offering seamless organization and productivity features.
                       </p>
                       <div class="mb-3">
@@ -1139,18 +1151,18 @@
                       </div>
                       <div class="row">
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">Features</h6>
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonFeatures">Features</h6>
                           <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Task Creation & Editing</li>
-                            <li class="list-group-item">Due Date Reminders</li>
-                            <li class="list-group-item">Priority Tagging</li>
-                            <li class="list-group-item">Dark Mode Support</li>
-                          </ul>
+                            <li class="list-group-item" data-lang="taskFeature1">Task Creation & Editing</li>
+                            <li class="list-group-item" data-lang="taskFeature2">Due Date Reminders</li>
+                            <li class="list-group-item" data-lang="taskFeature3">Priority Tagging</li>
+                            <li class="list-group-item" data-lang="taskFeature4">Dark Mode Support</li>
+                          </ul>                          
                           <br />
                         </div>
 
                         <div class="col-sm-6">
-                          <h6 class="card-subtitle mb-2 text-muted">Technologies</h6>
+                          <h6 class="card-subtitle mb-2 text-muted" data-lang="pokemonTech">Technologies</h6>
                           <ul class="list-group list-group-flush">
                             <li class="list-group-item">React</li>
                             <li class="list-group-item">Node.js, Express</li>
@@ -1180,144 +1192,17 @@
                   <div class="d-flex justify-content-center align-items-center">
                     <i class="feature-icon2 bi bi-chat"></i>
                   </div>
-                  <h2 class="display-5 mb-4 mb-md-2 text-center">
+                  <h2 class="display-5 mb-4 mb-md-2 text-center" data-lang="contactHeader">
                     Contact Me 🤙
                   </h2>
-                  <p class="lead text-center text-muted mb-5">
+                  <p class="lead text-center text-muted mb-5" data-lang="contactText">
                     Open to joining creative ventures and projects. If you're in
                     need of a committed collaborator, let's get in touch.
                   </p>
                   <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
                 </div>
               </div>
-            </div>
-            <!-- <div class="col-12 col-lg-6">
-              <div class="row justify-content-center">
-                <div class="col-10">
-                  <div
-                    class="bg-white border rounded shadow-sm overflow-hidden"
-                  >
-                    <form
-                      class="contact-form"
-                      action="https://formspree.io/f/xzbnkzek"
-                      method="post"
-                    >
-                      <div class="row gy-4 p-4">
-                        <div class="col-12">
-                          <div class="input-group">
-                            <span class="input-group-text">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-person"
-                                viewBox="0 0 16 16"
-                              >
-                                <path
-                                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-2 2-6 2s-6-1-6-2 2-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 9.835 10 8 10c-1.835 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h9.999z"
-                                />
-                              </svg>
-                            </span>
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="name"
-                              name="fullname"
-                              placeholder="Your Name*"
-                              value=""
-                              required
-                            />
-                          </div>
-                        </div>
-                        <div class="col-12">
-                          <div class="input-group">
-                            <span class="input-group-text">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-envelope"
-                                viewBox="0 0 16 16"
-                              >
-                                <path
-                                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
-                                />
-                              </svg>
-                            </span>
-                            <input
-                              type="email"
-                              class="form-control"
-                              id="email"
-                              name="email"
-                              placeholder="Email*"
-                              value=""
-                              required
-                            />
-                          </div>
-                        </div>
-
-                        <div class="col-12">
-                          <div class="input-group">
-                            <span class="input-group-text">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                fill="currentColor"
-                                class="bi bi-card-text"
-                                viewBox="0 0 16 16"
-                              >
-                                <path
-                                  d="M6 8V7h4v1H6zm0 2h4v1H6v-1zm0 2h4v1H6v-1z"
-                                />
-                                <path
-                                  fill-rule="evenodd"
-                                  d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3z"
-                                />
-                              </svg>
-                            </span>
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="subject"
-                              placeholder="Enter Subject*"
-                              name="subject"
-                              value=""
-                              required
-                            />
-                          </div>
-                        </div>
-                        <div class="col-12">
-                          <label for="message" class="form-label"
-                            >Message <span class="text-danger">*</span></label
-                          >
-                          <textarea
-                            class="form-control"
-                            id="message"
-                            name="message"
-                            placeholder="Looking forward hearing from you!"
-                            rows="5"
-                            required
-                          ></textarea>
-                        </div>
-                        <div class="col-12">
-                          <div class="d-grid">
-                            <button
-                              class="btn btn-primary btn-lg"
-                              type="submit"
-                            >
-                              Send Message
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div> -->
+            </div>  
             <div class="col-12 col-lg-6">
               <h2>Parth Tirkar</h2>
               <p>Leipzig, Deutschland</p>
@@ -1633,5 +1518,7 @@
         });
       });
     </script>
+    <script src="js/language-toggle.js"></script>
+
   </body>
 </html>
