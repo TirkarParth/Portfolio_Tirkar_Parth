@@ -40,7 +40,7 @@ const translations = {
       additionalCore: "Technologies & Tools:",
       projectsTitle: "Projects",
       projectsDesc:
-        'The <a href="https://careerfoundry.com/" target="_blank" rel="noopener">CareerFoundry</a> Full Stack Program catapulted me into the API realm, developing a backend API with Node.js as a base for clients in React and Angular. My journey expanded into mobile app development with React Native and crafting a Serverless App (PWA) using Test-Driven Development.',
+        'My development journey began with the <a href="https://careerfoundry.com/" target="_blank" rel="noopener">CareerFoundry</a> Full Stack Program, where I built foundational projects including RESTful APIs, React and Angular clients, React Native mobile apps, and serverless PWAs. Today, I continue to develop production applications with React, Next.js, React Native, and NestJS, implementing i18n for global reach. Below is a selection of projects that demonstrate my growth and expertise across the full development stack.',
     pokemonTitle: "Pokemon Js App",
     pokemonDesc:
       "A JavaScript-based web app focused on Pokémon, utilizing HTML, CSS, and JavaScript to fetch and present detailed data from an external API.",
@@ -130,7 +130,7 @@ const translations = {
       additionalCore: "Technologien & Werkzeuge:",
       projectsTitle: "Projekte",
     projectsDesc:
-      'Das <a href="https://careerfoundry.com/" target="_blank" rel="noopener">CareerFoundry</a> Full-Stack-Programm katapultierte mich in die Welt der APIs, wo ich eine Backend-API mit Node.js als Basis für Kunden in React und Angular entwickelte. Meine Reise erweiterte sich um die mobile App-Entwicklung mit React Native und die Erstellung einer serverlosen App (PWA) unter Verwendung von testgetriebener Entwicklung.',
+      'Meine Entwicklungsreise begann mit dem <a href="https://careerfoundry.com/" target="_blank" rel="noopener">CareerFoundry</a> Full-Stack-Programm, wo ich grundlegende Projekte erstellte, einschließlich RESTful APIs, React- und Angular-Clients, React Native Mobile-Apps und serverlose PWAs. Heute entwickle ich weiterhin produktive Anwendungen mit React, Next.js, React Native und NestJS und implementiere i18n für globale Reichweite. Unten finden Sie eine Auswahl von Projekten, die mein Wachstum und meine Expertise im gesamten Entwicklungsstack demonstrieren.',
   pokemonTitle: "Pokemon Js App",
     pokemonDesc:
       "Eine auf JavaScript basierende Webanwendung mit Fokus auf Pokémon, die HTML, CSS und JavaScript verwendet, um detaillierte Daten von einer externen API abzurufen und anzuzeigen.",
