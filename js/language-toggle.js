@@ -8,7 +8,7 @@ const translations = {
     switchLabel: "EN",
     heroTitle: "I am Parth, <br /> Your Fullstack Developer",
     heroDesc:
-      "I am a newly certified full-stack developer from Leipzig, Germany, holding a master's degree in Information Communication Systems. My passion for coding is driven by a fascination with creating solutions that are both technically robust and user-friendly, enhancing overall user satisfaction.",
+      "I am an experienced full-stack developer from Leipzig, Germany, holding a master's degree in Information Communication Systems. I work with React, React Native, and Next.js projects using i18n technology, and handle pull request reviews, rebase, merge, and release processes. My passion for coding is driven by a fascination with creating solutions that are both technically robust and user-friendly, enhancing overall user satisfaction.",
     heroResume: "Download Resume",
     ContactMe: "Contact Me",
     aboutTitle: "About Me",
@@ -98,7 +98,7 @@ const translations = {
     switchLabel: "DE",
     heroTitle: "Ich bin Parth, <br /> Dein Fullstack-Entwickler",
     heroDesc:
-      "Ich bin ein frisch zertifizierter Full-Stack-Entwickler aus Leipzig, Deutschland, mit einem Master-Abschluss in Informationskommunikationssystemen. Meine Leidenschaft für das Programmieren wird durch die Faszination an der Entwicklung technischer und benutzerfreundlicher Lösungen getrieben, die die Benutzerzufriedenheit verbessern.",
+      "Ich bin ein erfahrener Full-Stack-Entwickler aus Leipzig, Deutschland, mit einem Master-Abschluss in Informationskommunikationssystemen. Ich arbeite mit React, React Native und Next.js Projekten unter Verwendung von i18n-Technologie und verwalte Pull-Request-Reviews, Rebase, Merge und Release-Prozesse. Meine Leidenschaft für das Programmieren wird durch die Faszination an der Entwicklung technischer und benutzerfreundlicher Lösungen getrieben, die die Benutzerzufriedenheit verbessern.",
     heroResume: "Lebenslauf herunterladen",
     ContactMe: "Kontact",
     aboutTitle: "Über mich",
