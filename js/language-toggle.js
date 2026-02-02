@@ -13,16 +13,16 @@ const translations = {
     ContactMe: "Contact Me",
     aboutTitle: "About Me",
     aboutDesc:
-      "My passion for technology, combined with my experience in the tech industry and my master's studies, has enabled me to quickly acquire new skills. Below, I share how my journey has evolved, along with some of the activities I enjoy when I'm not working.",
-    backgroundTitle: "Background",
-    backgroundDesc:
-      "I've taken on diverse roles, seamlessly blending technical expertise with experience as an OB Engineer and a RADAR development student. My foundation in tech support and hardware simulation, along with a deep-rooted passion for technology, enables me to swiftly grasp and implement new skills 🎯.",
-    transitionTitle: "Transition",
-    transitionDesc:
-      "My time at Aptiv ⚡️ sparked my shift into development, where I discovered how to merge technical expertise with a user-focused approach. This role, combined with my customer-oriented background, highlighted the power of blending technology with user needs.",
-    downtimeTitle: "Downtime",
-    downtimeDesc:
-      "When I'm not coding, I love immersing myself in music, taking long drives, and tackling challenging puzzles with over 2,000 pieces. Each of these activities offers a unique way to unwind and stimulate my mind.",
+      "I'm a full-stack developer passionate about creating complete, end-to-end solutions. With hands-on experience building web and mobile applications, I enjoy working across the entire development lifecycle—from designing user interfaces to architecting backend systems and managing deployment workflows. I thrive in collaborative environments where I can contribute to code reviews, manage releases, and help deliver high-quality software products.",
+    approachTitle: "My Approach",
+    approachDesc:
+      "I believe in building solutions that are both technically sound and user-centric. Working with React, React Native, and Next.js, I focus on creating applications that are not only functional but also intuitive and accessible. I enjoy implementing i18n to make applications globally accessible and ensuring seamless experiences across platforms.",
+    fullstackTitle: "Full-Stack Experience",
+    fullstackDesc:
+      "Having worked on complete application stacks, I understand how frontend and backend systems integrate. From designing APIs to managing databases and ensuring smooth data flow, I appreciate the interconnected nature of modern web development and how each component contributes to the overall user experience.",
+    teamworkTitle: "Team Collaboration",
+    teamworkDesc:
+      "I value collaborative development and actively contribute through pull request reviews, code discussions, and knowledge sharing. Managing rebase, merge, and release processes has taught me the importance of clear communication and structured workflows in delivering reliable software as part of a team.",
       skillsTitle: "Skills",
       skillsDesc:
         "I am a dynamic web developer proficient in both frontend and backend development, dedicated to crafting responsive and intuitive web applications. With expertise in a wide range of technologies and frameworks, I deliver secure, high-performing, and reliable solutions.",
@@ -103,16 +103,16 @@ const translations = {
     ContactMe: "Kontact",
     aboutTitle: "Über mich",
     aboutDesc:
-      "Meine Leidenschaft für Technologie, kombiniert mit meiner Erfahrung in der Tech-Branche und meinem Master-Studium, hat es mir ermöglicht, schnell neue Fähigkeiten zu erlernen. Im Folgenden teile ich meinen Werdegang sowie einige Aktivitäten, die ich in meiner Freizeit genieße.",
-    backgroundTitle: "Hintergrund",
-    backgroundDesc:
-      "Ich habe verschiedene Rollen übernommen und dabei technisches Know-how mit Erfahrung als OB-Ingenieur und RADAR-Entwicklungsstudent kombiniert. Meine Erfahrung im technischen Support und der Hardwaresimulation sowie meine tiefe Leidenschaft für Technologie ermöglichen es mir, neue Fähigkeiten schnell zu erlernen und umzusetzen 🎯.",
-    transitionTitle: "Übergang",
-    transitionDesc:
-      "Meine Zeit bei Aptiv ⚡️ weckte mein Interesse an der Entwicklung, wo ich lernte, technisches Fachwissen mit einem nutzerzentrierten Ansatz zu verbinden. Diese Rolle, kombiniert mit meinem kundenorientierten Hintergrund, verdeutlichte die Bedeutung der Verbindung von Technologie mit Benutzerbedürfnissen.",
-    downtimeTitle: "Freizeit",
-    downtimeDesc:
-      "Wenn ich nicht programmiere, tauche ich gerne in die Welt der Musik ein, mache lange Autofahrten und löse anspruchsvolle Puzzles mit über 2.000 Teilen. Jede dieser Aktivitäten bietet eine einzigartige Möglichkeit, sich zu entspannen und meinen Geist zu stimulieren.",
+      "Ich bin ein Full-Stack-Entwickler, der leidenschaftlich vollständige, End-to-End-Lösungen erstellt. Mit praktischer Erfahrung im Aufbau von Web- und Mobile-Anwendungen arbeite ich gerne über den gesamten Entwicklungslebenszyklus hinweg—vom Design von Benutzeroberflächen bis zur Architektur von Backend-Systemen und der Verwaltung von Deployment-Workflows. Ich gedeihe in kollaborativen Umgebungen, in denen ich zu Code-Reviews beitragen, Releases verwalten und bei der Bereitstellung hochwertiger Softwareprodukte helfen kann.",
+    approachTitle: "Mein Ansatz",
+    approachDesc:
+      "Ich glaube an den Aufbau von Lösungen, die sowohl technisch solide als auch benutzerzentriert sind. Bei der Arbeit mit React, React Native und Next.js konzentriere ich mich darauf, Anwendungen zu erstellen, die nicht nur funktional, sondern auch intuitiv und zugänglich sind. Ich genieße die Implementierung von i18n, um Anwendungen global zugänglich zu machen und nahtlose Erfahrungen auf verschiedenen Plattformen zu gewährleisten.",
+    fullstackTitle: "Full-Stack-Erfahrung",
+    fullstackDesc:
+      "Nachdem ich an vollständigen Anwendungsstacks gearbeitet habe, verstehe ich, wie Frontend- und Backend-Systeme integriert werden. Vom Design von APIs bis zur Verwaltung von Datenbanken und der Gewährleistung eines reibungslosen Datenflusses schätze ich die vernetzte Natur der modernen Webentwicklung und wie jede Komponente zur Gesamterfahrung des Benutzers beiträgt.",
+    teamworkTitle: "Team-Zusammenarbeit",
+    teamworkDesc:
+      "Ich schätze kollaborative Entwicklung und trage aktiv durch Pull-Request-Reviews, Code-Diskussionen und Wissensaustausch bei. Die Verwaltung von Rebase-, Merge- und Release-Prozessen hat mich die Bedeutung klarer Kommunikation und strukturierter Workflows bei der Bereitstellung zuverlässiger Software als Teil eines Teams gelehrt.",
       skillsTitle: "Fähigkeiten",
       skillsDesc:
         "Ich bin ein dynamischer Webentwickler, der sowohl im Frontend- als auch im Backend-Bereich versiert ist. Ich entwickle responsive und intuitive Webanwendungen mit einem breiten Spektrum an Technologien und Frameworks, um sichere, leistungsstarke und zuverlässige Lösungen bereitzustellen.",
