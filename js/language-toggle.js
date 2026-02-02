@@ -25,18 +25,18 @@ const translations = {
       "I value collaborative development and actively contribute through pull request reviews, code discussions, and knowledge sharing. Managing rebase, merge, and release processes has taught me the importance of clear communication and structured workflows in delivering reliable software as part of a team.",
       skillsTitle: "Skills",
       skillsDesc:
-        "I am a dynamic web developer proficient in both frontend and backend development, dedicated to crafting responsive and intuitive web applications. With expertise in a wide range of technologies and frameworks, I deliver secure, high-performing, and reliable solutions.",
+        "As a seasoned full-stack developer, I architect and deliver enterprise-grade web and mobile applications. I leverage modern frameworks and best practices to build scalable, maintainable solutions that meet complex business requirements while ensuring optimal performance and security.",
       frontendTitle: "Frontend Development",
       frontendDesc:
-        "Specializing in creating responsive, user-friendly web applications using HTML, CSS, JavaScript, and TypeScript. Proficient in frameworks like React, Angular, and React Native.",
+        "Architecting and developing scalable frontend solutions using modern frameworks and libraries. I build production-ready applications with React, Next.js, and React Native, implementing internationalization (i18n) for global reach and managing complex state with Redux.",
       frontendCore: "Core Technologies:",
       backendTitle: "Backend Development",
       backendDesc:
-        "Proficient in server-side development with Node.js and Express, focusing on building robust APIs and managing databases using MongoDB and PostgreSQL.",
+        "Designing and implementing robust server-side architectures with Node.js, Express, and NestJS. I develop scalable RESTful APIs, architect database solutions, and ensure secure authentication and authorization systems for enterprise applications.",
       backendCore: "Core Technologies:",
       additionalTitle: "Additional Skills",
       additionalDesc:
-        "Experience with cloud storage solutions, local data storage, and advanced testing methodologies to ensure high-quality, secure applications.",
+        "Leading development workflows through code reviews, pull request management, and release processes. I orchestrate rebase and merge strategies, maintain code quality standards, and ensure seamless deployments. Experienced with comprehensive testing frameworks and cloud infrastructure management.",
       additionalCore: "Technologies & Tools:",
       projectsTitle: "Projects",
       projectsDesc:
@@ -115,18 +115,18 @@ const translations = {
       "Ich schätze kollaborative Entwicklung und trage aktiv durch Pull-Request-Reviews, Code-Diskussionen und Wissensaustausch bei. Die Verwaltung von Rebase-, Merge- und Release-Prozessen hat mich die Bedeutung klarer Kommunikation und strukturierter Workflows bei der Bereitstellung zuverlässiger Software als Teil eines Teams gelehrt.",
       skillsTitle: "Fähigkeiten",
       skillsDesc:
-        "Ich bin ein dynamischer Webentwickler, der sowohl im Frontend- als auch im Backend-Bereich versiert ist. Ich entwickle responsive und intuitive Webanwendungen mit einem breiten Spektrum an Technologien und Frameworks, um sichere, leistungsstarke und zuverlässige Lösungen bereitzustellen.",
+        "Als erfahrener Full-Stack-Entwickler entwerfe und entwickle ich unternehmensreife Web- und Mobile-Anwendungen. Ich nutze moderne Frameworks und Best Practices, um skalierbare, wartbare Lösungen zu erstellen, die komplexe Geschäftsanforderungen erfüllen und gleichzeitig optimale Leistung und Sicherheit gewährleisten.",
       frontendTitle: "Frontend-Entwicklung",
       frontendDesc:
-        "Spezialisiert auf die Erstellung responsiver, benutzerfreundlicher Webanwendungen mit HTML, CSS, JavaScript und TypeScript. Erfahren in Frameworks wie React, Angular und React Native.",
+        "Entwerfen und Entwickeln skalierbarer Frontend-Lösungen mit modernen Frameworks und Bibliotheken. Ich erstelle produktionsreife Anwendungen mit React, Next.js und React Native, implementiere Internationalisierung (i18n) für globale Reichweite und verwalte komplexe Zustände mit Redux.",
       frontendCore: "Kerntechnologien:",
       backendTitle: "Backend-Entwicklung",
       backendDesc:
-        "Erfahren in der serverseitigen Entwicklung mit Node.js und Express, mit Fokus auf robuste APIs und die Verwaltung von Datenbanken mit MongoDB und PostgreSQL.",
+        "Entwerfen und Implementieren robuster serverseitiger Architekturen mit Node.js, Express und NestJS. Ich entwickle skalierbare RESTful APIs, entwerfe Datenbanklösungen und gewährleiste sichere Authentifizierungs- und Autorisierungssysteme für Unternehmensanwendungen.",
       backendCore: "Kerntechnologien:",
       additionalTitle: "Zusätzliche Fähigkeiten",
       additionalDesc:
-        "Erfahrung mit Cloud-Speicherlösungen, lokaler Datenspeicherung und fortschrittlichen Testmethoden zur Gewährleistung qualitativ hochwertiger, sicherer Anwendungen.",
+        "Leitung von Entwicklungs-Workflows durch Code-Reviews, Pull-Request-Verwaltung und Release-Prozesse. Ich orchestriere Rebase- und Merge-Strategien, halte Code-Qualitätsstandards aufrecht und gewährleiste nahtlose Deployments. Erfahren mit umfassenden Test-Frameworks und Cloud-Infrastruktur-Management.",
       additionalCore: "Technologien & Werkzeuge:",
       projectsTitle: "Projekte",
     projectsDesc:
