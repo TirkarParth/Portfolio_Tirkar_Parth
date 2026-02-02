@@ -40,7 +40,7 @@ const translations = {
       additionalCore: "Technologies & Tools:",
       projectsTitle: "Projects",
       projectsDesc:
-        'My development journey began with the <a href="https://careerfoundry.com/" target="_blank" rel="noopener">CareerFoundry</a> Full Stack Program, where I built foundational projects including RESTful APIs, React and Angular clients, React Native mobile apps, and serverless PWAs. Today, I continue to develop production applications with React, Next.js, React Native, and NestJS, implementing i18n for global reach. Below is a selection of projects that demonstrate my growth and expertise across the full development stack.',
+        'My development journey began with the <a href="https://careerfoundry.com/" target="_blank" rel="noopener">CareerFoundry</a> Full Stack Program, where I built foundational projects including RESTful APIs, React and Angular clients, React Native mobile apps, and serverless PWAs. Today, I continue to develop production applications with React, Next.js, React Native, and NestJS at <a href="https://tradefoox.com/news/for-you" target="_blank" rel="noopener">Tradefoox</a>, implementing i18n for global reach. Below is a selection of projects that demonstrate my growth and expertise across the full development stack.',
     pokemonTitle: "Pokemon Js App",
     pokemonDesc:
       "A JavaScript-based web app focused on Pokémon, utilizing HTML, CSS, and JavaScript to fetch and present detailed data from an external API.",
@@ -83,6 +83,11 @@ const translations = {
     taskFeature2: "Due Date Reminders",
     taskFeature3: "Priority Tagging",
     taskFeature4: "Dark Mode Support",
+    tradefooxDescription: "A professional news platform providing curated content and insights. Built with modern web technologies to deliver a seamless user experience.",
+    tradefooxFeature1: "News Feed",
+    tradefooxFeature2: "Curated Content",
+    tradefooxFeature3: "Responsive Design",
+    tradefooxFeature4: "User-Friendly Interface",
     contactHeader: "Contact Me 🤙",
     contactText: "Open to joining creative ventures and projects. If you're in need of a committed collaborator, let's get in touch.",
     resume: "src//downloads/PtDev.pdf",  // English resume file path
@@ -130,7 +135,7 @@ const translations = {
       additionalCore: "Technologien & Werkzeuge:",
       projectsTitle: "Projekte",
     projectsDesc:
-      'Meine Entwicklungsreise begann mit dem <a href="https://careerfoundry.com/" target="_blank" rel="noopener">CareerFoundry</a> Full-Stack-Programm, wo ich grundlegende Projekte erstellte, einschließlich RESTful APIs, React- und Angular-Clients, React Native Mobile-Apps und serverlose PWAs. Heute entwickle ich weiterhin produktive Anwendungen mit React, Next.js, React Native und NestJS und implementiere i18n für globale Reichweite. Unten finden Sie eine Auswahl von Projekten, die mein Wachstum und meine Expertise im gesamten Entwicklungsstack demonstrieren.',
+      'Meine Entwicklungsreise begann mit dem <a href="https://careerfoundry.com/" target="_blank" rel="noopener">CareerFoundry</a> Full-Stack-Programm, wo ich grundlegende Projekte erstellte, einschließlich RESTful APIs, React- und Angular-Clients, React Native Mobile-Apps und serverlose PWAs. Heute entwickle ich weiterhin produktive Anwendungen mit React, Next.js, React Native und NestJS bei <a href="https://tradefoox.com/news/for-you" target="_blank" rel="noopener">Tradefoox</a> und implementiere i18n für globale Reichweite. Unten finden Sie eine Auswahl von Projekten, die mein Wachstum und meine Expertise im gesamten Entwicklungsstack demonstrieren.',
   pokemonTitle: "Pokemon Js App",
     pokemonDesc:
       "Eine auf JavaScript basierende Webanwendung mit Fokus auf Pokémon, die HTML, CSS und JavaScript verwendet, um detaillierte Daten von einer externen API abzurufen und anzuzeigen.",
@@ -173,6 +178,11 @@ const translations = {
     taskFeature2: "Erinnerungen an Fälligkeitsdaten",
     taskFeature3: "Prioritätenkennzeichnung",
     taskFeature4: "Unterstützung für den Dunkelmodus",
+    tradefooxDescription: "Eine professionelle Nachrichtenplattform, die kuratierte Inhalte und Einblicke bietet. Entwickelt mit modernen Web-Technologien für ein nahtloses Benutzererlebnis.",
+    tradefooxFeature1: "Nachrichten-Feed",
+    tradefooxFeature2: "Kuratierte Inhalte",
+    tradefooxFeature3: "Responsives Design",
+    tradefooxFeature4: "Benutzerfreundliche Oberfläche",
     contactHeader: "Kontaktiere mich 🤙",
     contactText: "Ich bin offen für kreative Unternehmungen und Projekte. Wenn du einen engagierten Mitstreiter suchst, lass uns in Kontakt treten.",
     resume: "src/downloads/Resume_German.pdf",  // German resume file path
