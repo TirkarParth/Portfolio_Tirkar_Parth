@@ -55,8 +55,73 @@
   </head>
 
   <body>
+    <!-- Cookie Consent Modal -->
+    <div id="cookieConsentModal" class="cookie-consent-overlay hidden">
+      <div class="cookie-consent-dialog">
+        <div class="cookie-consent-header">
+          <h3 class="cookie-consent-title" data-lang="cookieTitle">Cookies</h3>
+          <button type="button" class="cookie-consent-close" id="cookieCloseBtn" aria-label="Close">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="cookie-consent-body">
+          <p class="cookie-consent-text" data-lang="cookieText">
+            This platform uses cookies! To operate this website, it is necessary for us to use cookies. Some cookies are required to ensure functionality, others we need for our statistics, and still others help us to show you only the advertising that interests you. You can find out more in our privacy policy.
+          </p>
+          <h4 class="cookie-consent-subtitle" data-lang="cookieSubtitle">Select Cookie Groups:</h4>
+          <div class="cookie-groups">
+            <div class="cookie-group-item">
+              <label class="cookie-group-label" data-lang="cookieGoogleAnalytics">Google Analytics</label>
+              <label class="cookie-toggle-switch">
+                <input type="checkbox" id="cookieGoogleAnalytics" class="cookie-toggle-input">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+            <div class="cookie-group-item">
+              <label class="cookie-group-label" data-lang="cookieGoogleTagManager">Google Tag Manager</label>
+              <label class="cookie-toggle-switch">
+                <input type="checkbox" id="cookieGoogleTagManager" class="cookie-toggle-input">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+            <div class="cookie-group-item">
+              <label class="cookie-group-label" data-lang="cookieGoogleAdvertising">Google Advertising</label>
+              <label class="cookie-toggle-switch">
+                <input type="checkbox" id="cookieGoogleAdvertising" class="cookie-toggle-input">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+            <div class="cookie-group-item">
+              <label class="cookie-group-label" data-lang="cookieHubSpot">HubSpot</label>
+              <label class="cookie-toggle-switch">
+                <input type="checkbox" id="cookieHubSpot" class="cookie-toggle-input">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+            <div class="cookie-group-item">
+              <label class="cookie-group-label" data-lang="cookieNotSpecified">Not specified</label>
+              <label class="cookie-toggle-switch">
+                <input type="checkbox" id="cookieNotSpecified" class="cookie-toggle-input">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+          </div>
+          <div class="cookie-consent-buttons">
+            <button type="button" class="cookie-btn cookie-btn-primary" id="acceptSelectedBtn" data-lang="cookieAcceptSelected">Allow selected cookies</button>
+            <button type="button" class="cookie-btn cookie-btn-primary" id="acceptAllBtn" data-lang="cookieAcceptAll">Allow all cookies</button>
+            <button type="button" class="cookie-btn cookie-btn-secondary" id="denyAllBtn" data-lang="cookieDenyAll">Deny all cookies</button>
+          </div>
+          <div class="cookie-consent-footer">
+            <a href="/src/files/impressum.pdf" class="cookie-footer-link" data-lang="impressum">Impressum</a>
+            <span class="cookie-footer-separator">|</span>
+            <a href="#" class="cookie-footer-link" data-lang="privacyPolicy">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="scroll-watcher"></div>
-    <div class="page-wrapper">
+    <div class="page-wrapper" id="pageContent">
 
       <!-- Navbar -->
       <nav
@@ -1683,6 +1748,7 @@
       });
     </script>
     <script src="js/language-toggle.js"></script>
+    <script src="js/cookie-consent.js"></script>
 
   </body>
 </html>

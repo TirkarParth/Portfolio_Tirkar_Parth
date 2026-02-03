@@ -105,6 +105,19 @@ const translations = {
     contactHeader: "Contact Me 🤙",
     contactText: "Open to joining creative ventures and projects. If you're in need of a committed collaborator, let's get in touch.",
     resume: "src//downloads/PtDev.pdf",  // English resume file path
+    cookieTitle: "Cookies",
+    cookieText: "This platform uses cookies! To operate this website, it is necessary for us to use cookies. Some cookies are required to ensure functionality, others we need for our statistics, and still others help us to show you only the advertising that interests you. You can find out more in our privacy policy.",
+    cookieSubtitle: "Select Cookie Groups:",
+    cookieGoogleAnalytics: "Google Analytics",
+    cookieGoogleTagManager: "Google Tag Manager",
+    cookieGoogleAdvertising: "Google Advertising",
+    cookieHubSpot: "HubSpot",
+    cookieNotSpecified: "Not specified",
+    cookieAcceptSelected: "Allow selected cookies",
+    cookieAcceptAll: "Allow all cookies",
+    cookieDenyAll: "Deny all cookies",
+    impressum: "Impressum",
+    privacyPolicy: "Privacy Policy",
   },
 
 
@@ -214,6 +227,19 @@ const translations = {
     contactHeader: "Kontaktiere mich 🤙",
     contactText: "Ich bin offen für kreative Unternehmungen und Projekte. Wenn du einen engagierten Mitstreiter suchst, lass uns in Kontakt treten.",
     resume: "src/downloads/Resume_German.pdf",  // German resume file path
+    cookieTitle: "Cookies",
+    cookieText: "Diese Plattform verwendet Cookies! Um diese Website zu betreiben, ist es für uns notwendig Cookies zu verwenden. Einige Cookies sind erforderlich, um die Funktionalität zu gewährleisten, andere brauchen wir für unsere Statistik und wieder andere helfen uns, Dir nur die Werbung anzuzeigen, die Dich interessiert. Mehr erfährst Du in unserer Datenschutzerklärung.",
+    cookieSubtitle: "Cookie-Gruppen auswählen:",
+    cookieGoogleAnalytics: "Google Analytics",
+    cookieGoogleTagManager: "Google Tag Manager",
+    cookieGoogleAdvertising: "Google Advertising",
+    cookieHubSpot: "HubSpot",
+    cookieNotSpecified: "Nicht angegeben",
+    cookieAcceptSelected: "Ausgewählte Cookies zulassen",
+    cookieAcceptAll: "Alle Cookies zulassen",
+    cookieDenyAll: "Alle Cookies verweigern",
+    impressum: "Impressum",
+    privacyPolicy: "Datenschutz",
   }
 };
 
