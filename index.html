@@ -55,8 +55,73 @@
   </head>
 
   <body>
+    <!-- Cookie Consent Modal -->
+    <div id="cookieConsentModal" class="cookie-consent-overlay hidden">
+      <div class="cookie-consent-dialog">
+        <div class="cookie-consent-header">
+          <h3 class="cookie-consent-title" data-lang="cookieTitle">Cookies</h3>
+          <button type="button" class="cookie-consent-close" id="cookieCloseBtn" aria-label="Close">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="cookie-consent-body">
+          <p class="cookie-consent-text" data-lang="cookieText">
+            This platform uses cookies! To operate this website, it is necessary for us to use cookies. Some cookies are required to ensure functionality, others we need for our statistics, and still others help us to show you only the advertising that interests you. You can find out more in our privacy policy.
+          </p>
+          <h4 class="cookie-consent-subtitle" data-lang="cookieSubtitle">Select Cookie Groups:</h4>
+          <div class="cookie-groups">
+            <div class="cookie-group-item">
+              <label class="cookie-group-label" data-lang="cookieGoogleAnalytics">Google Analytics</label>
+              <label class="cookie-toggle-switch">
+                <input type="checkbox" id="cookieGoogleAnalytics" class="cookie-toggle-input">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+            <div class="cookie-group-item">
+              <label class="cookie-group-label" data-lang="cookieGoogleTagManager">Google Tag Manager</label>
+              <label class="cookie-toggle-switch">
+                <input type="checkbox" id="cookieGoogleTagManager" class="cookie-toggle-input">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+            <div class="cookie-group-item">
+              <label class="cookie-group-label" data-lang="cookieGoogleAdvertising">Google Advertising</label>
+              <label class="cookie-toggle-switch">
+                <input type="checkbox" id="cookieGoogleAdvertising" class="cookie-toggle-input">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+            <div class="cookie-group-item">
+              <label class="cookie-group-label" data-lang="cookieHubSpot">HubSpot</label>
+              <label class="cookie-toggle-switch">
+                <input type="checkbox" id="cookieHubSpot" class="cookie-toggle-input">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+            <div class="cookie-group-item">
+              <label class="cookie-group-label" data-lang="cookieNotSpecified">Not specified</label>
+              <label class="cookie-toggle-switch">
+                <input type="checkbox" id="cookieNotSpecified" class="cookie-toggle-input">
+                <span class="cookie-toggle-slider"></span>
+              </label>
+            </div>
+          </div>
+          <div class="cookie-consent-buttons">
+            <button type="button" class="cookie-btn cookie-btn-primary" id="acceptSelectedBtn" data-lang="cookieAcceptSelected">Allow selected cookies</button>
+            <button type="button" class="cookie-btn cookie-btn-primary" id="acceptAllBtn" data-lang="cookieAcceptAll">Allow all cookies</button>
+            <button type="button" class="cookie-btn cookie-btn-secondary" id="denyAllBtn" data-lang="cookieDenyAll">Deny all cookies</button>
+          </div>
+          <div class="cookie-consent-footer">
+            <a href="/src/files/impressum.pdf" class="cookie-footer-link" data-lang="impressum">Impressum</a>
+            <span class="cookie-footer-separator">|</span>
+            <a href="#" class="cookie-footer-link" data-lang="privacyPolicy">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="scroll-watcher"></div>
-    <div class="page-wrapper">
+    <div class="page-wrapper" id="pageContent">
 
       <!-- Navbar -->
       <nav
@@ -646,13 +711,7 @@
                     rel="noopener"
                     >CareerFoundry</a
                   >
-                  Full Stack Program, where I built foundational projects including RESTful APIs, React and Angular clients, React Native mobile apps, and serverless PWAs. Today, I continue to develop production applications with React, Next.js, React Native, and NestJS at
-                  <a
-                    href="https://tradefoox.com/news/for-you"
-                    target="_blank"
-                    rel="noopener"
-                    >Tradefoox</a
-                  >, implementing i18n for global reach. Below is a selection of projects that demonstrate my growth and expertise across the full development stack.
+                  Full Stack Program, where I built foundational projects including RESTful APIs, React and Angular clients, React Native mobile apps, and serverless PWAs. Today, I continue to develop production applications with React, Next.js, React Native, and NestJS in professional development environments, implementing i18n for global reach. Below is a selection of projects that demonstrate my growth and expertise across the full development stack.
                 </p>
               </div>
 
@@ -682,23 +741,23 @@
               data-aos-duration="3000"
             >
               <div class="row flex-row flex-nowrap scrollable-row">
-                <!-- Card 1 Tradefoox -->
+                <!-- Card 1 E-Commerce Platform -->
                 <div class="col-lg-6 mb-4">
                   <div class="card">
                     <img 
                       src="./img/tradefoox.png"
-                      alt="Tradefoox"
+                      alt="E-Commerce Platform"
                       class="card-img-top"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Tradefoox</h5>
+                      <h5 class="card-title">E-Commerce Platform</h5>
                       <p class="card-text mb-3" data-lang="tradefooxDescription">
-                        A comprehensive platform built with React and Next.js, featuring multiple integrated services. News feed, video feed, and job portal are built on React with Go API, while marketplace, listing platform, and messenger are built on Next.js with Nest API.
+                        A comprehensive e-commerce platform built with React and Next.js, featuring multiple integrated services. News feed, video feed, and job portal are built on React with Go API, while marketplace, listing platform, and messenger are built on Next.js with Nest API.
                       </p>
                       <div class="mb-3">
                         <a
                           href="https://tradefoox.com/news/for-you"
-                          title="Live link to Tradefoox"
+                          title="Live link to E-Commerce Platform"
                           target="_blank"
                           rel="noopener"
                           ><img
@@ -735,23 +794,23 @@
                   </div>
                 </div>
 
-                <!-- Card 2 App Store Factory -->
+                <!-- Card 2 Corporate Website -->
                 <div class="col-lg-6 mb-4">
                   <div class="card">
                     <img 
                       src="./img/app-store-factory.png"
-                      alt="App Store Factory"
+                      alt="Corporate Website"
                       class="card-img-top"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">App Store Factory</h5>
+                      <h5 class="card-title">Corporate Website</h5>
                       <p class="card-text mb-3" data-lang="appStoreFactoryDescription">
-                        A company overview website for App Store Factory, providing an overview of the entire group and company. This project was built, deployed, and managed by me, showcasing the company's services and portfolio.
+                        A company overview website providing an overview of the entire group and company. This project was built, deployed, and managed by me, showcasing the company's services and portfolio.
                       </p>
                       <div class="mb-3">
                         <a
                           href="https://appstore-factory.de/"
-                          title="Live link to App Store Factory"
+                          title="Live link to Corporate Website"
                           target="_blank"
                           rel="noopener"
                           ><img
@@ -786,23 +845,23 @@
                   </div>
                 </div>
 
-                <!-- Card 3 Tradefoox Mobile App -->
+                <!-- Card 3 Mobile E-Commerce App -->
                 <div class="col-lg-6 mb-4">
                   <div class="card">
                     <img 
                       src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                      alt="Tradefoox Mobile App"
+                      alt="Mobile E-Commerce App"
                       class="card-img-top"
                     />
                     <div class="card-body">
-                      <h5 class="card-title">Tradefoox Mobile App</h5>
+                      <h5 class="card-title">Mobile E-Commerce App</h5>
                       <p class="card-text mb-3" data-lang="tradefooxMobileDescription">
-                        The mobile application version of the Tradefoox platform, built with React Native. It provides the same comprehensive features as the web platform—news feed, video feed, job portal, marketplace, listing platform, and messenger—all accessible on iOS and Android devices.
+                        The mobile application version of the e-commerce platform, built with React Native. It provides the same comprehensive features as the web platform—news feed, video feed, job portal, marketplace, listing platform, and messenger—all accessible on iOS and Android devices.
                       </p>
                       <div class="mb-3">
                         <a
                           href="https://tradefoox.com/news/for-you"
-                          title="Live link to Tradefoox Mobile App"
+                          title="Live link to Mobile E-Commerce App"
                           target="_blank"
                           rel="noopener"
                           ><img
@@ -1689,6 +1748,7 @@
       });
     </script>
     <script src="js/language-toggle.js"></script>
+    <script src="js/cookie-consent.js"></script>
 
   </body>
 </html>
